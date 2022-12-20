@@ -1,0 +1,85 @@
+* {
+    -fx-primary-color: black;
+    -fx-secondary-color: black;
+    -fx-grey-color: #b9b9b9;
+
+    -fx-focus-color: -fx-secondary-color;
+}
+.mainPane {
+    -fx-background-color: linear-gradient(to bottom right, #43cea2 , #185a9d);
+}
+
+.topBar {
+    -fx-background-color: #222;
+}
+
+.exit-btn {
+    -fx-background-color: #222;
+    -fx-background-radius: 0;
+}
+
+.exit-btn:hover {
+    -fx-background-color: #ED4245;
+    -fx-background-radius: 0;
+}
+
+.highlight {
+    -fx-background-color: #00000025;
+    -fx-background-radius: 15;
+}
+
+.highlight-screen {
+    -fx-background-radius: 15;
+}
+
+.menu-bar {
+    -fx-background-color: #222;
+}
+
+.menu {
+    -fx-padding: 10px;
+    -fx-text-fill: white;
+}
+
+.menu-item {
+    -fx-padding: 10px;
+}
+
+.radio-button .radio {
+    -fx-border-width: 1px;
+    -fx-border-color: WHITE;
+    -fx-background-color: #00000025;
+    -fx-background-image: null;
+    -fx-border-radius: 15px;
+    -fx-padding: 0px;
+}
+.radio-button .radio:selected {
+    -fx-background-color: TRANSPARENT;
+    -fx-background-image: null;
+}
+.radio-button -radio:armed {
+    -fx-background-color: TRANSPARENT;
+    -fx-background-image: null;
+}
+.radio-button -radio:determinate {
+    -fx-background-color: TRANSPARENT;
+    -fx-background-image: null;
+}
+.radio-button -radio:indeterminate {
+    -fx-background-color: TRANSPARENT;
+    -fx-background-image: null;
+}
+.radio-button .dot {
+    -fx-background-radius: 15px;
+    -fx-padding: 8px;
+}
+
+.text-field {
+	-fx-accent: -fx-primary-color;
+	-fx-background-color: -fx-grey-color, white;
+	-fx-background-insets: 0, 0 0 1 0;
+    -fx-background-radius: 0;
+}
+.text-field:focused {
+	-fx-background-color: -fx-primary-color, white;
+}
